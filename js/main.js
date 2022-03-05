@@ -88,7 +88,7 @@
         autoplay: true,
         smartSpeed: 1000,
         center: true,
-        margin: 24,
+        margin: 10,
         dots: true,
         loop: true,
         nav : false,
@@ -100,7 +100,7 @@
                 items:2
             },
             992:{
-                items:3
+                items:2
             }
         }
     });

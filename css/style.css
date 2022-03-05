@@ -5,6 +5,13 @@
     --dark: #181d38;
 }
 
+.logo-image{
+    width: 105px;
+    height: 105px;
+    margin-top: 13px;
+    margin-left: 100px;
+}
+
 .fw-medium {
     font-weight: 600 !important;
 }
@@ -115,7 +122,7 @@ html {
 
 .navbar-light .navbar-brand,
 .navbar-light a.btn {
-    height: 75px;
+    height: 95px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -158,6 +165,7 @@ html {
     .header-carousel .owl-carousel-item {
         position: relative;
         min-height: 500px;
+        
     }
     
     .header-carousel .owl-carousel-item img {
@@ -300,7 +308,7 @@ html {
 .testimonial-carousel::before {
     position: absolute;
     content: "";
-    top: 0;
+    top: 10;
     left: 0;
     height: 100%;
     width: 0;
@@ -335,7 +343,7 @@ html {
 
 .testimonial-carousel .owl-item .testimonial-text,
 .testimonial-carousel .owl-item.center .testimonial-text * {
-    transition: .5s;
+    transition: .10s;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text {
@@ -347,7 +355,7 @@ html {
 }
 
 .testimonial-carousel .owl-dots {
-    margin-top: 24px;
+    margin-top: 14px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -357,10 +365,10 @@ html {
     position: relative;
     display: inline-block;
     margin: 0 5px;
-    width: 15px;
+    width: 30px;
     height: 15px;
     border: 1px solid #CCCCCC;
-    transition: .5s;
+    transition: .10s;
 }
 
 .testimonial-carousel .owl-dot.active {
